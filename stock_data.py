@@ -130,7 +130,7 @@ def get_top_gainers_losers():
     
     # Common large cap stocks for demonstration
     symbols = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA', 'FB', 'NVDA', 'JPM', 'V', 'JNJ',
-               'WMT', 'BAC', 'PG', 'PYPL', 'DIS', 'NFLX', 'INTC', 'CMCSA', 'PFE', 'CSCO']
+               'WMT', 'BAC', 'PG', 'PYPL', 'DIS', 'NFLX', 'INTC', 'CMCSA', 'PFE', 'CSCO'] 
     
     stocks_data = []
     for symbol in symbols:

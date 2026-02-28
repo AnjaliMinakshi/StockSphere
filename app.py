@@ -19,7 +19,7 @@ app.secret_key = os.environ.get("SESSION_SECRET", "dev-secret-key")
 logging.basicConfig(level=logging.DEBUG)
 
 # configure the database, using external PostgreSQL from Render
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://hackindia_652w_user:dx8XzlXYo01FhlVy5pBqg4ZJcgT1EWIA@dpg-cvmcpq15pdvs73f1vn1g-a.singapore-postgres.render.com/hackindia_652w"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://anjali_minakshi_user:rR14jwNAuaWJpRjaya9vcGfv6vrpDHMf@dpg-d6hhqh9aae7s73buav50-a.oregon-postgres.render.com/anjali_minakshi"
 app.config["SQLALCHEMY_ENGINE_OPTIONS"] = {
     "pool_recycle": 300,
     "pool_pre_ping": True,
